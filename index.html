@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="images/logo.jpg" alt="logo" class="logo">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="index.html">home</a></li>
+                <li class="nav-item"><a href="#services">services</a></li>
+                <li class="nav-item"><a href="#hot-deals">hot deals</a></li>
+                <li class="nav-item"><a href="#vehicles">vehicles</a></li>
+                <li class="nav-item"><a href="#faqs">faqs</a></li>
+                <li class="nav-item"><a href="#locations">locations</a></li>
+                <li class="nav-item"><a href="#blog">blog</a></li>
+                <li class="nav-item"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger">
+            <div class="hamburger__bar"></div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-description">
+                <h1>Find Your Car!</h1>
+                <h1>Rent A Car Theme</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequatur ex dolorum atque officiis, exercitationem modi culpa sit commodi. Fugiat.</p>
+                <div class="btn" style="background-color: transparent;">SEE ALL VEHICLES</div>
+            </div>
+            <div class="form-control">
+                <div class="form-heading">
+                    <p>Search for Cheap Rental Cars</p>
+                    <p>Wherever you are</p>
+                </div>
+                <form>
+                    <label for="pick-up-location">Picking Up Location</label><br>
+                    <input type="text" name="pick-up-location" id="pick-up-location" placeholder="Airport or Anywhere"><br>
+                    <label for="drop-off-location">Dropping off Location</label><br>
+                    <input type="text" name="drop-off-location" id="drop-off-location" placeholder="Airport or Anywhere"><br>
+                    <label for="pick-up-date">Piciking up Date</label><br>
+                    <input type="date" name="pick-up-date" id="pick-update"><br>
+                    <label for="pick-up-hour">Picking Up Hour</label><br>
+                    <input type="time" name="pick-up-hour" id="pick-up-hour"><br>
+                    <label for="drop-off-date">Dropping Off Date</label><br>
+                    <input type="date" name="drop-off-date" id="drop-off-date"><br>
+                    <label for="drop-off-hour">Dropping Off Hour</label><br>
+                    <input type="time" name="drop-off-hour" id="drop-off-hour"><br>
+                    <button type="submit">Find Car</button>
+                </form>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <div class="services-body">
+                <h3>What Do You KNow About Us</h3>
+                <h1>WHO WE ARE?</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nihil non in, cupiditate autem voluptate pariatur eius, sit eveniet ad assumenda enim expedita? Veritatis, amet architecto molestias, commodi suscipit tenetur nesciunt porro cum nihil reiciendis quisquam adipisci accusantium impedit excepturi quo. Omnis adipisci voluptas, dolor quae enim reiciendis at ab.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet.</p><br>
+                <div style='display:flex;'>
+                    <div class="btn btn-active">SEE ALL VEHICLES</div>
+                    <div class="btn">RESERVATION NOW</div>
+                </div>
+            </div>
+            <div class="services-image">
+                <img src="images/services-image.jpg" alt="services image">
+            </div>
+        </div>
+        <div class="offers" id="hot-deals">
+            <p>What Kind of Car You Want</p>
+            <h1>GREAT RENTAL OFFERS FOR YOU</h1>
+            <div class='offer-options'>
+                <div class="btn">BEST OFFERS</div>
+                <div class="btn btn-active">POPULAR CARS</div>
+                <div class="btn">ECONOMIC CARS</div>
+            </div>
+            <div class="popular-cars-container">
+                <div class="popular-car-card">
+                    <div class="car-image">
+                        <img src="images/car-1.jpg" alt="car">
+                    </div>
+                    <div class="car-body">
+                        <h4 class="car-name">VW PASSAT CC 2.0 TDI</h4>  
+                        <p class="car-price">Start from 39$/day</p>
+                        <div class="btn btn-active">RENT IT</div>
+                        <ul class="car-description">
+                            <li>2011</li>
+                            <li>Diesel</li>
+                            <li>Auto</li>
+                            <li>25000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="popular-car-card">
+                    <div class="car-image">
+                        <img src="images/car-1.jpg" alt="car">
+                    </div>
+                    <div class="car-body">
+                        <h4 class="car-name">VW PASSAT CC 2.0 TDI</h4>  
+                        <p class="car-price">Start from 39$/day</p>
+                        <div class="btn btn-active">RENT IT</div>
+                        <ul class="car-description">
+                            <li>2011</li>
+                            <li>Diesel</li>
+                            <li>Auto</li>
+                            <li>25000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="popular-car-card">
+                    <div class="car-image">
+                        <img src="images/car-1.jpg" alt="car">
+                    </div>
+                    <div class="car-body">
+                        <h4 class="car-name">VW PASSAT CC 2.0 TDI</h4>  
+                        <p class="car-price">Start from 39$/day</p>
+                        <div class="btn btn-active">RENT IT</div>
+                        <ul>
+                            <li>2011</li>
+                            <li>Diesel</li>
+                            <li>Auto</li>
+                            <li>25000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="testimonial-image">
+
+                </div>
+                <div class="testimonial-body">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi itaque est minus fugiat, quo mollitia error blanditiis nihil tempora eveniet ipsam sed, eos fugit?</h3>
+                    <span style="font-weight: bolder;">John Anthony</span>
+                    <span style="font-size: 0.8rem;">, &nbsp Co-founder</span>
+                </div>
+            </div>
+            <div class="slides">
+                <div class="circle"></div>
+                <div class="circle current-slide"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <section class="vehicles" id='vehicles'>
+            <p>Select What You Want</p>
+            <h1>OUR AWESOME RENTAL FLEET CARS</h1>
+            <div class="slideshow-container">
+                <div class="mySlides slide-in">
+                    <img src="images/car-2.jpg">
+                  <div class="text">Some Text</div>
+                </div>
+                <div class="mySlides slide-in">
+                  <img src="images/car-3.jpg">
+                  <div class="text">Some Text</div>
+                </div>
+                <div class="mySlides slide-in">
+                  <img src="images/car-4.jpg">
+                  <div class="text">Some Text</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+        </section>
+        <section class="faqs" id="faqs">
+            <p>See What People Ask Us</p>
+            <h1>FAQS</h1>
+            <div class="accordion-container">
+                <div style="position: relative;">
+                    <button class="accordion">Section 1</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus ipsam laudantium, quaerat est voluptatum! Animi placeat velit saepe suscipit?</p>
+                    </div>
+                </div>
+                
+                <div style="position: relative;">
+                    <button class="accordion">Section 2</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus ipsam laudantium, quaerat est voluptatum! Animi placeat velit saepe suscipit?</p>
+                    </div>
+                </div>
+                
+                <div style="position: relative;">
+                    <button class="accordion">Section 3</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus ipsam laudantium, quaerat est voluptatum! Animi placeat velit saepe suscipit?</p>
+                    </div> 
+                </div>
+
+                <div style="position: relative;">
+                    <button class="accordion">Section 1</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus ipsam laudantium, quaerat est voluptatum! Animi placeat velit saepe suscipit?</p>
+                    </div>    
+                </div> 
+
+                <div style="position: relative;">
+                    <button class="accordion">Section 2</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus ipsam laudantium, quaerat est voluptatum! Animi placeat velit saepe suscipit?</p>
+                    </div>
+                </div>
+                
+                <div style="position: relative;">
+                    <button class="accordion">Section 3</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus ipsam laudantium, quaerat est voluptatum! Animi placeat velit saepe suscipit?.</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <div class="blogs" id="blog">
+            <p>Rental Magazine Here</p>
+            <h1>RECENT BLOG POSTS</h1>
+            <div class="blogs-container">
+              <div class="blog">
+                <div class="blog-image">
+
+                </div>
+                <div class="blog-body">
+                    <h2 class="published-date">21 DEC</h2>
+                    <div class="blog-content">
+                        <h4>Amazing Cars here and best offer awaits for you</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloribus optio ea nam amet dolorum magni facilis, veritatis perferendis maiores atque eius repudiandae, ducimus asperiores.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="blog">
+                <div class="blog-image">
+
+                </div>
+                <div class="blog-body">
+                    <h2 class="published-date">21 DEC</h2>
+                    <div class="blog-content">
+                        <h4>Amazing Cars here and best offer awaits for you</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloribus optio ea nam amet dolorum magni facilis, veritatis perferendis maiores atque eius repudiandae, ducimus asperiores.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">Read All Posts</div>
+        </div>
+        <div class="subscribe">
+            <p>You Can Follow Us by Email</p>
+            <h1>SUBSCRIBE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga temporibus necessitatibus aspernatur, dignissimos doloremque sequi magni dicta? Natus dolor veritatis voluptatem qui consequuntur. Impedit assumenda quas iusto cupiditate placeat culpa?</p>
+            <form>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                <button type="submit" class="btn">SUBSCRIBE</button>
+            </form>
+        </div>
+        <section class="employees">
+            <p>Do You Have Any Questions or Anything Else</p>
+            <h1>COSTUMER SERVICE</h1>
+            <div class="employee-container">
+                <div class="employee-card">
+                    <div class="employee-image">
+
+                    </div>
+                    <div class="employee-body">
+                        <h4>Kelly Doe</h4>
+                        <p>Costumer Service</p>
+                        ..........
+                        <p>Skye: team member</p>
+                        <p>Tel: 555 555 5555</p>
+                        <p class="email">support.name@gmail.com</p>
+                    </div>
+                </div>
+                <div class="employee-card">
+                    <div class="employee-image">
+
+                    </div>
+                    <div class="employee-body">
+                        <h4>Kelly Doe</h4>
+                        <p>Costumer Service</p>
+                        ..........
+                        <p>Skye: team member</p>
+                        <p>Tel: 555 555 5555</p>
+                        <p class="email">support.name@gmail.com</p>
+                    </div>
+                </div>
+                <div class="employee-card">
+                    <div class="employee-image">
+
+                    </div>
+                    <div class="employee-body">
+                        <h4>Kelly Doe</h4>
+                        <p>Costumer Service</p>
+                        ..........
+                        <p>Skye: team member</p>
+                        <p>Tel: 555 555 5555</p>
+                        <p class="email">support.name@gmail.com</p>
+                    </div>
+                </div>
+                <div class="employee-card">
+                    <div class="employee-image">
+
+                    </div>
+                    <div class="employee-body">
+                        <h4>Kelly Doe</h4>
+                        <p>Costumer Service</p>
+                        ..........
+                        <p>Skye: team member</p>
+                        <p>Tel: 555 555 5555</p>
+                        <p class="email">support.name@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <iframe id="locations" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.43744420246!2d85.34190261451921!3d27.672871633614214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb194cd6e39d9d%3A0x5e1dd6b0e7e90455!2sUPTOWN%20Building!5e0!3m2!1sen!2snp!4v1640188207590!5m2!1sen!2snp" width="100%" height="450" style="border: 2px solid rgb(213, 213, 213);display: block;" allowfullscreen="" loading="lazy"></iframe>
+    </main>
+    <footer id="contact">
+        <p>Feel Free to Say Hello</p>   
+        <h1>GET IN TOUCH WITH US</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vitae expedita repudiandae, nobis ipsum ipsam consequatur fuga tempora fugiat nesciunt modi animi maiores consequuntur eveniet.</p>
+        <p>Address Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, labore?</p>
+        <p>Support phone : 01 55 555 5555</p>
+        <p>E-mail: xyz@abc.com</p>
+        <p>working hours: 21:00 to 6:00</p>
+        <a href="#">view on map</a>
+    </footer>
+</html>
